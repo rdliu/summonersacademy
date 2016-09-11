@@ -39,6 +39,10 @@ mongod --dbpath c:\<path_to_project>\data\
 5. Connect to mongo using the command line and add data as you see fit.
 mongo
 
+6. Setup a database, app is using summonersacademy as the database name.
+
+use summonersacademy
+
 ###To run the app
 1. go to your project directory and run npm start.
 2. go to http://localhost:3000.
