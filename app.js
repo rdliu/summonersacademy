@@ -24,6 +24,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/users', users);
+app.use('/checkin', routes);
+app.use('/page2', routes);
+app.use('/page1', routes);
 
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');

@@ -20,7 +20,7 @@ body{
 }
 
 .jumbotron {
-  background-image:url('TGFam.jpg');
+  background-image:url('../images/TGFam.jpg');
   height: 470px;
   background-size: cover;
 }

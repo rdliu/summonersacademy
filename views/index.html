@@ -1,11 +1,13 @@
-<html> <!-- Comments -->
-	<head><!-- Comments: This is the header kinda like top title of your website -->
-		<title>My Website</title>
+<!DOCTYPE html>
+<html>
+
+<head><!-- Comments: This is the header kinda like top title of your website -->
+		<title>Homepage</title>
     <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 <!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVr	LvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <link rel="stylesheet" href="stylesheets/style.css">
 	<!-- Comments the line below allows you to link html file to your css file
 	since its in the same folder, 
@@ -14,203 +16,65 @@
 	rel...idk what this does -->
 	</head>
 
-
-<!-- starts the body of the website-->
-<body>
-
-<!-- Custom tag "main" defined in style.css -->
+  <body>
     <div class="nav">
       <div class="container">
         <ul class="pull-left">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="page2.html">Events</a></li>
+			<li><a href="/">Home</a></li>
+			<li><a href="page2">Events</a></li>
         </ul>
         <ul class="pull-right">
-          <li><a href="page1.html">Info</a></li>
-          <li><a href="checkin.html">Log In</a></li>
-          <li><a href="#">Help</a></li>
+			<li><a href="page1">Info</a></li>
+			<li><a href="checkin">Log In</a></li>
+			<li><a href="#">Help</a></li>
         </ul>
       </div>
     </div>
-	<div id = "0" class= "0">
-        <div class="container">
-            <h2> Choose Your College</h2>
-            <p> Not sure where to stay? UCSD is home to 6 unique colleges that are meant to be best fit for your major and lifestyle!</p>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="thumbnail">
-						<a href = "#1">
-							<img src="images/warren.jpg">
-						</a>
-                    </div>
-	                <div class="thumbnail">
-						<a href = "#2">
-							<img src="images/sixth.jpg">
-						</a>
-                    </div>				
-                </div>
-                
-                <div class= "col-md-4">
-				    <div class="thumbnail">
-						<a href = "#3">
-							<img src="images/revelle.png">
-						</a>
-                    </div>
-					<div class="thumbnail">
-						<a href = "#4">					
-							<img src="images/muir.jpg">
-						</a>
-					</div>
-                </div>
-                
-                <div class="col-md-4">
-				    <div class="thumbnail">
-						<a href = "#5">
-							<img src="images/Marshall.jpg" width="200" height="40" alt="Computer Hope" >
-						</a>
-					</div>
-					<a href = "#6">
-						<div class="thumbnail">
-							<img src="images/ERC.jpg" >
-						</div>
-					</a>
-					
-                </div>
-            </div>
-			
-			
-        </div>
-    </div>
-	
-	<div id="1" style ="min-height:1000px;background:#CAE4DB;" width="100px">
+
+    <div class="jumbotron">
 		<div class="container">
-			<h1>Warren</h1>
-			<p>The Earl Warren College motto, "Toward a Life in Balance", is inspired by the philosophy of our namesake, former Chief Justice Earl Warren. The College is dedicated to cultivating ethically responsible citizen scholars who will flourish during their careers at UC San Diego and beyond.</p>
-			
-			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeRCD9WnYF58lg5-iU4sV2O_xUohbeKOpzt-XRh4jAr33kBgg/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-			<a href = "#0">
-				<div>
-					<button style="text-align: center;" id="GoBack">Go Back</button>
-				</div>
-			</a>
+			<h1>Welcome to Campus Clash</h1>
+		<p>Duke it out with your fellow classmates and find out whos the top College at UCSD!</p>
 		</div>
-	</div>
-	
-	<div id="2" style ="min-height:1000px;background:#7A9D96;">
-		<div class="container">
-			<h1>Sixth</h1>
-			<p>Home to experiential learning and the interdisciplinary theme of Culture, Art and Technology, Sixth is the newest college at UC San Diego. With a vibrant community life, stimulating academic programs and tremendous support from faculty and staff, our students are proud to be Sixth College.</p>
-			<button style="text-align: center;" id="Signup">Sign Up</button>
-			<a href = "#0">
-				<div>
-					<button style="text-align: center;" id="GoBack">Go Back</button>
-				</div>
-			</a>
-		</div>
-	</div>
-	
-	<div id="3" style ="min-height:1000px;background:#CAE4DB;">
-		<div class="container" width=500px>
-			<h1>Revelle</h1>
-			<p>At Revelle College, we focus on you and are proud of your successes here and after graduation. You're in the right place if you like rigorous educational curriculum and opportunities, stellar faculty, engagement in college life, collaborative activities and experiences, and a diverse environment in which to live, work, and play. Current students, faculty, founding faculty, alumni, and staff share their experiences here, and, read more in Revelle Foundations, a transcript of interviews about Revelle and it's curriculum history.</p>
-			<button style="text-align: center;" id="Signup">Sign Up</button>
-			<a href = "#0">
-				<div>
-					<button style="text-align: center;" id="GoBack">Go Back</button>
-				</div>
-			</a>
-		</div>
-	</div>
-	
-	<div id="4" style ="min-height:1000px;background:#7A9D96;">
-		<div class="container">
-			<h1>Muir</h1>
-			<p>As UCSD’s second college, John Muir College admitted its first students in 1967. The remarkable life of the college's namesake, the nineteenth-century environmentalist, nature writer, and founder of the Sierra Club, continues to inspire and inform the vision and core values of the college.  John Muir was also an inventor and businessman; he was a remarkable person who forged his own path and took risks. Hence, the college’s motto, “Celebrating the Independent Spirit,” expresses our wish for all our students to lead varied, successful, committed, and self-directed lives.</p>
-			<button style="text-align: center;" id="Signup">Sign Up</button>
-			<a href = "#0">
-				<div>
-					<button style="text-align: center;" id="GoBack">Go Back</button>
-				</div>
-			</a>
-		</div>
-	</div>
-	
-	<div id="5" style ="min-height:1000px;background:#CAE4DB;">
-		<div class="container">
-			<h1>Marshall</h1>
-			<p>Thurgood Marshall College, formerly known as Third College, was founded in 1970 in a period of transformative social change in the United States and the world. From its beginning, the college has enriched the lives of undergraduates with a commitment to the development of young people as both professionals and engaged citizens. In 1993, the college was named in honor of former U.S. Supreme Court Justice Thurgood Marshall. Justice Marshall is well known for his dedication to educational opportunity for all, civil rights, freedom of speech, women’s rights, and the right to privacy.</p>
-			<button style="text-align: center;" id="Signup">Sign Up</button>
-			<a href = "#0">
-				<div>
-					<button style="text-align: center;" id="GoBack">Go Back</button>
-				</div>
-			</a>
-		</div>
-	</div>
-	
-	<div id="6" style ="min-height:1000px;background:#7A9D96;">
-		<div class="container">
-			<div class="row">
+    </div> 
+
+    <div class="learn-more">
+	  <div class="container">
+		<div class="row">
 			<div class= "col-md-4">
-				<h1>ERC</h1>
-				<p>ERC welcomes students from every field of study, from human biology to art history and from electrical engineering to political science.  ERC is a distinctive neighborhood within a larger campus community.  
-			The defining theme of ERC is international understanding.  Through our core curriculum, Making of the Modern World, as well as co-curricular activities like the Global Marketplace, Culture Nights at International House, and alternative spring breaks held across the hemisphere, students at ERC explore their identities and commitments as global citizens.</p>
+				<h3>Description at a glance</h3>
+				<p>UCSD is made of 6 colleges: Sixth, Warren, Marshall, ERC, Muir, and Revelle. All of which are home to hundreds of league champions! Come join your fellow classmates in working together to show League of Tritons who is the number one house- I mean college - *cough cough* at UCSD!</p>
 			</div>
-
 			<div class= "col-md-4">
-				<h1> Summoners</h1>
-				<ul>
-					<li> Proto55 </li>
-				</ul>
-				<input id= "name" type="text">
-				<button id ="addOne"> Add Summoner </button>
+				<h3>How to play</h3>
+				<p>There are several many ways to play! Anyone can earn points for their respective schools by being proactive!</p>
+				<p>To Play For Free: Coming out to events and signing in will automatically earn you a point along with any blitz points earned at any event </p>
+				<p>*OPTIONAL* Membership($10): Membership cards are bought from Triton Gaming and upon purchase gives your college a point!  
 			</div>
-				<button id="Signup">Sign Up</button>
-				<a href = "#0">
-					<div>
-						<button id="GoBack">Go Back</button>
-					</div>
-				</a>
+			<div class= "col-md-4">
+				<h3>Upcoming events</h3>
+				<h4> General Body Meeting Wednesday:   September 21	6 - 8 PM </h4>
+				<p>A presentation to prospective new and returning members about our organization and events. There will be a raffle giveaway and a social after the event.</p>
+				<h4>University Centers Presents: First Friday - The Triton League:   Friday, September 23</h4>
+				<p>University Centers is turning the entire Price Center into a Pokemon-themed events with movies, games, arts and crafts, and more! We will be hosting a variety of mini-tournaments and freeplay areas at East.</p>
+				<h4>Division Showcase:   Sunday, September 25</h4>
+				<p>Triton Gaming will be filling up East with all of our various gaming divisions. We are offering basic information, competitive gaming opportunities, and small gaming booths.</p>
+				<h4>Collab: SD Hacks:   September 30 - October 2	</h4>
+				<p>San Diego's annual hackathon will now have a gaming lounge where hackers can play for prizes or blow off some steam. We will be running mini-tournaments with prizing.</p>
+				<h4>General Body LAN:   General Body LAN</h4>
+				<p>Our quarterly LAN returns with tournaments, prizing, and freeplay areas.</p>
+				<h4>Melee Super Triweekly:   Sunday, October 23</h4>
+				<p>Our Super Smash Bros Melee division is presenting an upgraded version of their usual tri-weekly tournaments. Event doubles as The Melee Games (TMG) Qualifier.</p>
+				<h4>League of Legends Worlds Championship Viewing Party:   Saturday, October 29</h4>
+				<p>Join the local UC San Diego League community and watch world-class teams clash on the Rift.</p>
+				<h4>To Be Announced:   Sunday, November 13</h4>
+				<p>From Verified ID support team, we've got your back.</p>
 			</div>
-		</div>
+	    </div>
+	  </div>
 	</div>
 	
-	
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<script>
-		$(document).ready(function(){
-		  $('a[href*=#]').click(function() {
-			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
-			&& location.hostname == this.hostname) {
-			  var $target = $(this.hash);
-			  $target = $target.length && $target
-			  || $('[name=' + this.hash.slice(1) +']');
-			  if ($target.length) {
-				var targetOffset = $target.offset().top;
-				$('html,body')
-				.animate({scrollTop: targetOffset}, 1000);
-			   return false;
-			  }
-			}
-		  });
-		});
-		</script>
-		<script type="text/javascript">
-			$('#addOne').click(function(){
-				/*var value = $('#name').val();
-				$('ul').append('<li>'+value+'</li>');*/
-				alert("hi");
-			})
-		</script>
-
-		<script>
-			$('#Signup').click(function(){
-				alert("wait");
-			});
-		</script>
-
-	</body>
-
-
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
 </html>
